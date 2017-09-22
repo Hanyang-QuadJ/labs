@@ -45,3 +45,11 @@ a.navbar-brand {
 	color: white;
 }
 
+.card-footer {
+	background-color: #000000;
+	opacity: 0.9;
+}
+.text-muted {
+	color: white !important;
+}
+
