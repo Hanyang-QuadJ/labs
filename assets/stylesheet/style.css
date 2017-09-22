@@ -28,7 +28,9 @@ html, body {
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
 }
-
+.card {
+	margin-bottom: 2.5rem;
+}
 a.navbar-brand {
 	color: white !important;
 }
