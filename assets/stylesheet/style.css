@@ -52,4 +52,7 @@ a.navbar-brand {
 .text-muted {
 	color: white !important;
 }
+.navbar-light .navbar-toggler {
+	color: white;
+}
 
