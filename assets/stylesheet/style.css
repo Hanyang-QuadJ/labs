@@ -25,9 +25,15 @@ html, body {
 	color: white;
 	opacity: 0.9;
 }
+.main-heading:hover {
+	font-size: 3.5rem;
+}
 .members-heading {
 	text-align: center;
-	padding-top: 2.5rem;
+	padding-top: 2.5rem;	
+}
+.members-sub {
+	text-align: center;
 	padding-bottom: 2.5rem;
 }
 .card {
