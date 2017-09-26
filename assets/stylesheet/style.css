@@ -1,3 +1,4 @@
+/* All */
 * {
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -6,38 +7,10 @@ html, body {
 	height: 100%;
 }
 
+/* Header */
 .header {
 	background-color: #000000;
 	opacity: 0.9;
-}
-
-.banner {
-	background: url('../images/bg-header.jpg');
-	height: 50%;
-	background-size: cover;
-	background-position: center center;
-	background-color: #000000;
-}
-
-.main-heading {
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-	color: white;
-	opacity: 0.9;
-}
-.main-heading:hover {
-	font-size: 3.5rem;
-}
-.members-heading {
-	text-align: center;
-	padding-top: 2.5rem;	
-}
-.members-sub {
-	text-align: center;
-	padding-bottom: 2.5rem;
-}
-.card {
-	margin-bottom: 2.5rem;
 }
 a.navbar-brand {
 	color: white !important;
@@ -55,6 +28,40 @@ a.navbar-brand {
 	color: white;
 }
 
+.navbar-light .navbar-toggler {
+	color: white;
+}
+
+/* Banner */
+.banner {
+	background: url('../images/bg-header.jpg');
+	height: 50%;
+	background-size: cover;
+	background-position: center center;
+	background-color: #000000;
+}
+.main-heading {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	color: white;
+	opacity: 0.9;
+}
+.main-heading:hover {
+	font-size: 3.5rem;
+}
+
+/* Members */
+.members-heading {
+	text-align: center;
+	padding-top: 2.5rem;	
+}
+.members-sub {
+	text-align: center;
+	padding-bottom: 2.5rem;
+}
+.card {
+	margin-bottom: 2.5rem;
+}
 .card-footer {
 	background-color: #000000;
 	opacity: 0.9;
@@ -62,7 +69,3 @@ a.navbar-brand {
 .text-muted {
 	color: white !important;
 }
-.navbar-light .navbar-toggler {
-	color: white;
-}
-
