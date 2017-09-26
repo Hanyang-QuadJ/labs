@@ -20,10 +20,10 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 				<ul class="navbar-nav">
-				  <li class="nav-item nav-link" data-target="#home" style="cursor:pointer"> Home </li>
-				  <li class="nav-item nav-link" data-target="#members" style="cursor:pointer"> Members </li>
-				  <li class="nav-item nav-link" data-target="#project" style="cursor:pointer"> Projects </li>
-				  <li class="nav-item nav-link" data-target="#about" style="cursor:pointer"> About </li>
+					<li class="nav-item nav-link" data-target="#home" style="cursor:pointer"> Home </li>
+					<li class="nav-item nav-link" data-target="#members" style="cursor:pointer"> Members </li>
+					<li class="nav-item nav-link" data-target="#project" style="cursor:pointer"> Projects </li>
+					<li class="nav-item nav-link" data-target="#about" style="cursor:pointer"> About </li>
 				</ul>
 			</div>
 		</nav>
@@ -45,19 +45,19 @@
 				<div class="col-md-4">
 				<div class="card">
 					<img class="card-img-top" src="./assets/images/jeewoo.jpeg" height="470px" alt="Card image cap">
-				  	<div class="card-body">
-					    <h4 class="card-title">윤지우(Jeewoo Yoon)</h4>
-					    <p class="card-text">Junior at Hanyang University CSE</p>
+					<div class="card-body">
+						<h4 class="card-title">윤지우(Jeewoo Yoon)</h4>
+						<p class="card-text">Junior at Hanyang University CSE</p>
 						<ul>
 							<li>Node.js / Ruby on Rails / Laravel </li>
 							<li>Ionic2 / Angular</li>
 							<li>mongoDB / MySQL</li>
 							<li>AWS (EC2/ELB/RDS)</li>
 						</ul>
-					    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+						<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 					  </div>
 					  <div class="card-footer text-muted">
-					    Backend Developer (Team Lead)
+						Backend Developer (Team Lead)
 					  </div>
 				</div>
 				</div>
@@ -65,18 +65,18 @@
 					<div class="card">
 					<img class="card-img-top" src="./assets/images/shin.jpeg" height="470px" alt="Card image cap">
 					  <div class="card-body">
-					    <h4 class="card-title">신현종(Hyunjong Shin)</h4>
-					    <p class="card-text">Sophomore at Hanyang University CSE</p>
-					    <ul>
+						<h4 class="card-title">신현종(Hyunjong Shin)</h4>
+						<p class="card-text">Sophomore at Hanyang University CSE</p>
+						<ul>
 							<li>Ionic2 / Angular / React Native</li>
 							<li>Laravel</li>
 							<li>Typescript / ECMA6</li>
 							<li>Mysql</li>
 						</ul>
-					    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+						<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 					  </div>
 					  <div class="card-footer text-muted">
-					    Frontend Developer
+						Frontend Developer
 					  </div>
 					</div>
 				</div>
@@ -84,18 +84,18 @@
 					<div class="card">
 					<img class="card-img-top" src="./assets/images/lee.jpeg" height="470px" alt="Card image cap">						
 					  <div class="card-body">
-					    <h4 class="card-title">이정현(Jeonghyeon Lee)</h4>
-					    <p class="card-text">Postgraduate at Hanyang University CSE</p>
-					    <ul>
+						<h4 class="card-title">이정현(Jeonghyeon Lee)</h4>
+						<p class="card-text">Postgraduate at Hanyang University CSE</p>
+						<ul>
 							<li>Node.js / Laravel</li>
 							<li>Ionic2 / Angular</li>
 							<li>Machine Learning</li>
 							<li>mongoDB / MySQL</li>
 						</ul>
-					    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+						<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 					  </div>
 					  <div class="card-footer text-muted">
-					    Backend Developer
+						Backend Developer
 					  </div>
 					</div>
 				</div>
@@ -118,7 +118,7 @@
 <script>
 	$(document).ready(function() {
 		$('.card-body').hide();
-    	$('.card').click(function() {
+		$('.card').click(function() {
 			$(this).children(".card-body").slideToggle();
 			// $('body').scrollTo('#member');
 		});
@@ -126,7 +126,7 @@
 		  var scrollPosition = $($(this).attr("data-target")).offset().top;
 		 
 		  $("body").animate({
-		        scrollTop: scrollPosition
+				scrollTop: scrollPosition
 		  }, 700);
 		})
 	});
