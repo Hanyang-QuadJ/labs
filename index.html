@@ -106,16 +106,19 @@
 <script src="./assets/lib/jquery-3.2.1.min.js"></script>
 <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
 <script>
-	$('.card').click(function() {
-		$(this).children(".card-body").slideToggle();
-		// $('body').scrollTo('#member');
+	$( document ).ready(function() {
+		$('.card-body').hide();
+    	$('.card').click(function() {
+			$(this).children(".card-body").slideToggle();
+			// $('body').scrollTo('#member');
+		});
+		$("ul li").click(function() {
+		  var scrollPosition = $($(this).attr("data-target")).offset().top;
+		 
+		  $("body").animate({
+		        scrollTop: scrollPosition
+		  }, 700);
+		})
 	});
-	$("ul li").click(function() {
-	  var scrollPosition = $($(this).attr("data-target")).offset().top;
-	 
-	  $("body").animate({
-	        scrollTop: scrollPosition
-	  }, 700);
-	})
 </script>
 </html>
