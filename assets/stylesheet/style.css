@@ -130,12 +130,15 @@ footer > p > span {
 		color: #d1d1d1;
 	}
 }
-@media (min-width: 414px) {
+@media (min-width: 414px) and (max-width: 500px){
+	img.card-img-top {
+		height: 510px;
+	}
 	footer {
 		background-color: #000000;
 		opacity: 0.9;
 		height: 13%;
-		padding-top: 2%;
+		padding-top: 5%;
 	}
 	footer > p {
 		text-align: center;
